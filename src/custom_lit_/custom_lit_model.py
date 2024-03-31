@@ -633,3 +633,11 @@ class MNLIModel(GlueModel):
             # 'labels' = lit_types.CategoryLabel()
             }
 
+    # def output_spec(self) -> types.Spec:
+    #     """Describe the model outputs."""
+    #     return {
+    #         # The 'parent' keyword tells LIT where to look for gold labels when computing metrics.
+    #         'probas': lit_types.MulticlassPreds(vocab=['positive', 'neutral', 'negative'], parent='label'),
+    #         # This model returns two different embeddings (activation vectors), but you can easily add more.
+    #     }
+

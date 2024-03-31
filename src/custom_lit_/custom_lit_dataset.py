@@ -34,7 +34,7 @@ class SST2Data(lit_dataset.Dataset):
   See https://www.tensorflow.org/datasets/catalog/glue#gluesst2.
   """
 
-    LABELS = ['0', '1']
+    LABELS = ['0', '1', '2']
     TFDS_SPLITS = ['test', 'train', 'validation']
 
     def load_from_csv(self, path: str):

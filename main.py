@@ -20,6 +20,7 @@ FLAGS.set_default("development_demo", True)
 _MODEL_PATH = flags.DEFINE_string(
     "model_path",
     "/home/nashtech/PycharmProjects/LIT-flipkart/flipkart_model",
+    # "akshatmehta98/roberta-base-fine-tuned-flipkart-reviews-am",
     "Path to saved model (from transformers library).",
 )
 
